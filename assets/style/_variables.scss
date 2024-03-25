@@ -1,3 +1,5 @@
+@import "./mixins";
+
 // COLORS STYLE ///
 
 // c - color
@@ -34,18 +36,172 @@ $c-dt-white-50: #161616;
 
 // H1 //
 
-@mixin font-d-72-400 {
+@mixin font-h1-72-400 {
   @include font(72px, 78px, 400);
 }
 
-@mixin font-d-72-500 {
+@mixin font-h1-72-500 {
   @include font(72px, 78px, 500);
 }
 
-@mixin font-d-72-600 {
+@mixin font-h1-72-600 {
   @include font(72px, 78px, 600);
 }
 
-@mixin font-d-72-700 {
+@mixin font-h1-72-700 {
   @include font(72px, 78px, 700);
+}
+
+// H2 //
+
+@mixin font-h2-64-400 {
+  @include font(64px, 68px, 400);
+}
+
+@mixin font-h2-64-500 {
+  @include font(64px, 68px, 500);
+}
+
+@mixin font-h2-64-600 {
+  @include font(64px, 68px, 600);
+}
+
+@mixin font-h2-64-700 {
+  @include font(64px, 68px, 700);
+}
+
+// H3 //
+
+@mixin font-h3-48-400 {
+  @include font(48px, 54px, 400);
+}
+
+@mixin font-h3-48-500 {
+  @include font(48px, 54px, 500);
+}
+
+@mixin font-h3-48-600 {
+  @include font(48px, 54px, 600);
+}
+
+@mixin font-h3-48-700 {
+  @include font(48px, 54px, 700);
+}
+
+// H4 //
+
+@mixin font-h4-36-400 {
+  @include font(36px, 42px, 400);
+}
+
+@mixin font-h4-36-500 {
+  @include font(36px, 42px, 500);
+}
+
+@mixin font-h4-36-600 {
+  @include font(36px, 42px, 600);
+}
+
+@mixin font-h4-36-700 {
+  @include font(36px, 42px, 700);
+}
+
+// H5 //
+
+@mixin font-h5-30-400 {
+  @include font(30px, 36px, 400);
+}
+
+@mixin font-h5-30-500 {
+  @include font(30px, 36px, 500);
+}
+
+@mixin font-h5-30-600 {
+  @include font(30px, 36px, 600);
+}
+
+@mixin font-h5-30-700 {
+  @include font(30px, 36px, 700);
+}
+
+// H6 //
+
+@mixin font-h6-24-400 {
+  @include font(24px, 32px, 400);
+}
+
+@mixin font-h6-24-500 {
+  @include font(24px, 32px, 500);
+}
+
+// SUBBHEADLINE //
+
+@mixin font-subheadline-20-400 {
+  @include font(20px, 28px, 400);
+}
+
+@mixin font-subheadline-20-500 {
+  @include font(20px, 28px, 500);
+}
+
+@mixin font-subheadline-20-600 {
+  @include font(20px, 28px, 600);
+}
+
+@mixin font-subheadline-20-700 {
+  @include font(20px, 28px, 700);
+}
+
+// BODY 1 //
+
+@mixin font-body1-18-400 {
+  @include font(18px, 26px, 400);
+}
+
+@mixin font-body1-18-500 {
+  @include font(18px, 26px, 500);
+}
+
+@mixin font-body1-18-600 {
+  @include font(18px, 26px, 600);
+}
+
+@mixin font-body1-18-700 {
+  @include font(18px, 26px, 700);
+}
+
+// BODY 2 //
+
+@mixin font-body2-16-400 {
+  @include font(16px, 24px, 400);
+}
+
+@mixin font-body2-18-500 {
+  @include font(16px, 24px, 500);
+}
+
+@mixin font-body2-18-600 {
+  @include font(16px, 24px, 600);
+}
+
+@mixin font-body2-18-700 {
+  @include font(16px, 24px, 700);
+}
+
+// CAPTION //
+
+@mixin font-caption1-14-400 {
+  @include font(14px, 20px, 400);
+}
+
+@mixin font-caption1-14-500 {
+  @include font(14px, 20px, 500);
+}
+
+@mixin font-caption1-14-600 {
+  @include font(14px, 20px, 600);
+}
+
+@mixin font-caption1-14-700 {
+  @include font(14px, 20px, 700);
 }
