@@ -1,1 +1,51 @@
-$test: #333333;
+// COLORS STYLE ///
+
+// c - color
+// dt - dark theme
+// lt - light theme
+
+$c-dt-background: #111111;
+$c-dt-white-1000: #ffffff;
+$c-dt-white-500: #888888;
+$c-dt-white-100: #282828;
+$c-dt-white-50: #161616;
+
+// FONTS STYLES //
+
+@mixin font($fs, $lh, $fw) {
+  font-size: $fs;
+  font-weight: $fw;
+  line-height: $lh;
+}
+
+// DISPLAY //
+
+@mixin font-d-96-500 {
+  @include font(96px, 100px, 500);
+}
+
+@mixin font-d-96-600 {
+  @include font(96px, 100px, 600);
+}
+
+@mixin font-d-96-700 {
+  @include font(96px, 100px, 700);
+}
+
+// H1 //
+
+@mixin font-d-72-400 {
+  @include font(72px, 78px, 400);
+}
+
+@mixin font-d-72-500 {
+  @include font(72px, 78px, 500);
+}
+
+@mixin font-d-72-600 {
+  @include font(72px, 78px, 600);
+}
+
+@mixin font-d-72-700 {
+  @include font(72px, 78px, 700);
+}
