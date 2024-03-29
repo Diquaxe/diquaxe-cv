@@ -4,7 +4,7 @@
   font-weight: 400;
   src:
     local("Sf Pro Display"),
-    url("~assets/fonts/SFProDisplay-Regular.woff2") format("woff2");
+    url("~/assets/fonts/SFProDisplay-Regular.woff2") format("woff2");
 }
 
 @font-face {
@@ -13,7 +13,7 @@
   font-weight: 500;
   src:
     local("Sf Pro Display"),
-    url("~assets/fonts/SFProDisplay-Medium.woff2") format("woff2");
+    url("~/assets/fonts/SFProDisplay-Medium.woff2") format("woff2");
 }
 
 @font-face {
@@ -22,7 +22,7 @@
   font-weight: 600;
   src:
     local("Sf Pro Display"),
-    url("~assets/fonts/SFProDisplay-Semibold.woff2") format("woff2");
+    url("~/assets/fonts/SFProDisplay-Semibold.woff2") format("woff2");
 }
 
 @font-face {
@@ -31,5 +31,5 @@
   font-weight: 700;
   src:
     local("Sf Pro Display"),
-    url("~assets/fonts/SFProDisplay-Bold.woff2") format("woff2");
+    url("~/assets/fonts/SFProDisplay-Bold.woff2") format("woff2");
 }

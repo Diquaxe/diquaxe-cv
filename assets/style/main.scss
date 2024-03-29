@@ -16,10 +16,11 @@ body,
 body {
   height: 100%;
   font-family: "Sf Pro Display", sans-serif;
+  color: $c-dt-white-1000;
+  background-color: $c-dt-background;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: $c-dt-background;
 }
 
 a {
